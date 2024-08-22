@@ -5,10 +5,10 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for session management
 
 # Twitter API credentials
-API_KEY = 'your_api_key'
-API_SECRET_KEY = 'your_api_secret_key'
-ACCESS_TOKEN = 'your_access_token'
-ACCESS_TOKEN_SECRET = 'your_access_token_secret'
+API_KEY = 'ucyOyPkIZ6bpLou9fPrAUVL1f'
+API_SECRET_KEY = 'V5kZeVkrFOblnmx0gUzy9cw3Y7c4ahtGOyo8yIUSxLYz1HO8cg'
+ACCESS_TOKEN = '134377901-4hDkW68Tf0vG95MDSbl35HJYKbkZKZX2OGGSX7iJ'
+ACCESS_TOKEN_SECRET = 'aUsHVHDVRGx8E4wC210rh1G2OEjpw7GyHGfyzZUX7wa1w'
 
 # Authenticate to Twitter
 auth = tweepy.OAuth1UserHandler(API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
